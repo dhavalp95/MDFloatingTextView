@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MDFloatingTextView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'MDFloatingTextView is beautyfull presentation of floating lable on textview'
 
 # This description is used to generate tags and improve search results.
