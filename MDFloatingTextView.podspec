@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'MDFloatingTextView is a beautiful, flexible and customizable implementation of the space saving "Float Label with textview". This design enables adding context to input fields that are visible at the time of typing, while minimizing the additional space used to display this additional context.'
-    DESC
+'MDFloatingTextView is a beautiful, flexible and customizable implementation of the space saving Float Label with textview. This design enables adding context to input fields that are visible at the time of typing, while minimizing the additional space used to display this additional context.'
+                        DESC
   s.homepage         = 'https://github.com/dhavalp95/MDFloatingTextView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -28,7 +28,6 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
   s.platforms = {
