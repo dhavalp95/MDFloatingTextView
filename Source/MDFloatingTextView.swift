@@ -43,7 +43,7 @@ public class MDFloatingTextView: UITextView {
         case insideBorder, onBorder, outsideBorder
     }
     
-    //MARK:- Basic Methods
+     //MARK:- Life Cycle Method
     override public func awakeFromNib() {
         super.awakeFromNib()
         
