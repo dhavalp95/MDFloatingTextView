@@ -1,0 +1,6 @@
+framework module Pods_MDFloatingTextView_Example {
+  umbrella header "Pods-MDFloatingTextView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

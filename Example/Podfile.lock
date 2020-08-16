@@ -1,0 +1,16 @@
+PODS:
+  - MDFloatingTextView (0.1.0)
+
+DEPENDENCIES:
+  - MDFloatingTextView (from `../`)
+
+EXTERNAL SOURCES:
+  MDFloatingTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MDFloatingTextView: d5bd816ee19c51e18b635fb4a99ccc72cba2a67a
+
+PODFILE CHECKSUM: 655b5e317b70854e8e2a9880297da17264b1c112
+
+COCOAPODS: 1.8.4

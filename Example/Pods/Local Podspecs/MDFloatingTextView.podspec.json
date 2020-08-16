@@ -1,0 +1,22 @@
+{
+  "name": "MDFloatingTextView",
+  "version": "0.1.0",
+  "summary": "A short description of MDFloatingTextView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dhaval/MDFloatingTextView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dhaval": "dhavalp@hyperlinkinfosystem.net.in"
+  },
+  "source": {
+    "git": "https://github.com/dhaval/MDFloatingTextView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MDFloatingTextView/Classes/**/*"
+}

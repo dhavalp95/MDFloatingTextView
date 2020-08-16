@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C6B45B1574F3F8A91257FE49FA04895 /* Pods-MDFloatingTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E873BE928826B272F15C26F11A09830D /* Pods-MDFloatingTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25AC0E26DFF86BF71400DFC99749328A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		35C5E25DC795AF0E5659EA7E4B4A8857 /* MDFloatingTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C31D5B336E467499A1B752519235825C /* MDFloatingTextView-dummy.m */; };
+		83C277278FF4A47D20B76B5DCCD79F8D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF902475251EE23CE99AD1972035DE9 /* ReplaceMe.swift */; };
+		93BDE7A58FFAC1B221DB8A39A11AF4BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		942695299A3DB6A838999A0F0FBAFE7D /* MDFloatingTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D145B8EE8E1E8D2F9EF9DBF545EF8E /* MDFloatingTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5683074CA1189C85EBB5B9D05C1C95F /* Pods-MDFloatingTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A233C0BFF5899CA39A7EC1C6047954CA /* Pods-MDFloatingTextView_Example-dummy.m */; };
+		C4F6AA54EF83422990483D5C005445C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E4C18D64252F5B73E2947AB3ADAC04D9 /* Pods-MDFloatingTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 413D5D7416CDEB096E5EAD8CC67FAB69 /* Pods-MDFloatingTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7BF49806558E2EBCE5FEFC3581CCFE7 /* Pods-MDFloatingTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE90D35E82044F2B0528216EE15776 /* Pods-MDFloatingTextView_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7CC3F1ADDA5314E7F3557C565CADB44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EBDA66C8656EDAF62DF95BEA1BC1D26;
+			remoteInfo = "Pods-MDFloatingTextView_Example";
+		};
+		F58E26F7A3C9A27829D9629252C6AF2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EF6BD6AD3B2FA6F86275C4DF3A1D5B8;
+			remoteInfo = MDFloatingTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02048E421B23E666DD96B65269DF1646 /* Pods-MDFloatingTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MDFloatingTextView_Example.modulemap"; sourceTree = "<group>"; };
+		054CE1B144AF31DE397C9195A1F02132 /* Pods-MDFloatingTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MDFloatingTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		08A53AB271AC9B65CD7F096C43F2A160 /* MDFloatingTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFloatingTextView-prefix.pch"; sourceTree = "<group>"; };
+		12F7139CBE42B06F5481C0834CFD9816 /* Pods-MDFloatingTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MDFloatingTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		2E9EBDA9FA3C3BF3B791A7666955B927 /* Pods-MDFloatingTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MDFloatingTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CAF1FBABC4398956AD2B8C6BE67EB82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		413D5D7416CDEB096E5EAD8CC67FAB69 /* Pods-MDFloatingTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MDFloatingTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		41D145B8EE8E1E8D2F9EF9DBF545EF8E /* MDFloatingTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFloatingTextView-umbrella.h"; sourceTree = "<group>"; };
+		5798D5DDADE71E844D721361A2D50EB9 /* Pods-MDFloatingTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDFloatingTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5AF3B39D163695F00D73D1481766A238 /* Pods-MDFloatingTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDFloatingTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5EF902475251EE23CE99AD1972035DE9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MDFloatingTextView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5FEC24F681542867A69A47B6AB37DDB4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		75F0DED9697B31E1A1AB1929AC93726C /* MDFloatingTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDFloatingTextView.xcconfig; sourceTree = "<group>"; };
+		7A4CD924B3702C8D502F9BEC6D74B8A4 /* MDFloatingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MDFloatingTextView.framework; path = MDFloatingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CE91FB22B571E8FB33CE95A7AFF9DA /* MDFloatingTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MDFloatingTextView.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A233C0BFF5899CA39A7EC1C6047954CA /* Pods-MDFloatingTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MDFloatingTextView_Example-dummy.m"; sourceTree = "<group>"; };
+		A256A1D44973F87ACAA5902C202AA63E /* Pods_MDFloatingTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MDFloatingTextView_Example.framework; path = "Pods-MDFloatingTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31D5B336E467499A1B752519235825C /* MDFloatingTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDFloatingTextView-dummy.m"; sourceTree = "<group>"; };
+		C5C672FCF34A5542DC48C76D2FD0F2F5 /* Pods-MDFloatingTextView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MDFloatingTextView_Example-Info.plist"; sourceTree = "<group>"; };
+		CA42892831C74646C3EAC7E043A2F1C7 /* Pods-MDFloatingTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MDFloatingTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDD21ECA46E2D72E5F5C95514F9D4B82 /* Pods_MDFloatingTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MDFloatingTextView_Tests.framework; path = "Pods-MDFloatingTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF48956CDCE921A240DA81EC5B115CDE /* MDFloatingTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MDFloatingTextView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DFC5507B7721B3B102B92CA452565CFB /* Pods-MDFloatingTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDFloatingTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E50569A7FF98CA8122ABD83F8A51B426 /* MDFloatingTextView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MDFloatingTextView-Info.plist"; sourceTree = "<group>"; };
+		E873BE928826B272F15C26F11A09830D /* Pods-MDFloatingTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MDFloatingTextView_Example-umbrella.h"; sourceTree = "<group>"; };
+		E8BE90D35E82044F2B0528216EE15776 /* Pods-MDFloatingTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MDFloatingTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		F32A9C49B7B8F540E413EDE05AE701CE /* Pods-MDFloatingTextView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MDFloatingTextView_Tests-Info.plist"; sourceTree = "<group>"; };
+		FA8997682F81FA132BAA323019D80D4D /* Pods-MDFloatingTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MDFloatingTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FAB38A6599F0CD29EE315898E8295C5A /* Pods-MDFloatingTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDFloatingTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBF163540AF03CFDB4D11CD8616CF66E /* Pods-MDFloatingTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MDFloatingTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EB1D97B539ABFEB7BB727D389A94B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25AC0E26DFF86BF71400DFC99749328A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81931FAEF42C92B84C250BACC58891ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BDE7A58FFAC1B221DB8A39A11AF4BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16824640070F5EAC9DF9DF1FAD71A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F6AA54EF83422990483D5C005445C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BFC0BC56687AB9CABABD58172FF8A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD924B3702C8D502F9BEC6D74B8A4 /* MDFloatingTextView.framework */,
+				A256A1D44973F87ACAA5902C202AA63E /* Pods_MDFloatingTextView_Example.framework */,
+				CDD21ECA46E2D72E5F5C95514F9D4B82 /* Pods_MDFloatingTextView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A1F279233496AB35609D856415F0EA2 /* Pods-MDFloatingTextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				02048E421B23E666DD96B65269DF1646 /* Pods-MDFloatingTextView_Example.modulemap */,
+				FBF163540AF03CFDB4D11CD8616CF66E /* Pods-MDFloatingTextView_Example-acknowledgements.markdown */,
+				054CE1B144AF31DE397C9195A1F02132 /* Pods-MDFloatingTextView_Example-acknowledgements.plist */,
+				A233C0BFF5899CA39A7EC1C6047954CA /* Pods-MDFloatingTextView_Example-dummy.m */,
+				FA8997682F81FA132BAA323019D80D4D /* Pods-MDFloatingTextView_Example-frameworks.sh */,
+				C5C672FCF34A5542DC48C76D2FD0F2F5 /* Pods-MDFloatingTextView_Example-Info.plist */,
+				E873BE928826B272F15C26F11A09830D /* Pods-MDFloatingTextView_Example-umbrella.h */,
+				5798D5DDADE71E844D721361A2D50EB9 /* Pods-MDFloatingTextView_Example.debug.xcconfig */,
+				5AF3B39D163695F00D73D1481766A238 /* Pods-MDFloatingTextView_Example.release.xcconfig */,
+			);
+			name = "Pods-MDFloatingTextView_Example";
+			path = "Target Support Files/Pods-MDFloatingTextView_Example";
+			sourceTree = "<group>";
+		};
+		348040D4B98C51842580FCA5BB1A82F4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF1FBABC4398956AD2B8C6BE67EB82 /* LICENSE */,
+				DF48956CDCE921A240DA81EC5B115CDE /* MDFloatingTextView.podspec */,
+				5FEC24F681542867A69A47B6AB37DDB4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3B78D2D07B724A6F7FCEE8CEF726FDBF /* MDFloatingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5EF902475251EE23CE99AD1972035DE9 /* ReplaceMe.swift */,
+				348040D4B98C51842580FCA5BB1A82F4 /* Pod */,
+				50E66F2057B2FFA1CAC9E1909E0E8ED0 /* Support Files */,
+			);
+			name = MDFloatingTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		50E66F2057B2FFA1CAC9E1909E0E8ED0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81CE91FB22B571E8FB33CE95A7AFF9DA /* MDFloatingTextView.modulemap */,
+				75F0DED9697B31E1A1AB1929AC93726C /* MDFloatingTextView.xcconfig */,
+				C31D5B336E467499A1B752519235825C /* MDFloatingTextView-dummy.m */,
+				E50569A7FF98CA8122ABD83F8A51B426 /* MDFloatingTextView-Info.plist */,
+				08A53AB271AC9B65CD7F096C43F2A160 /* MDFloatingTextView-prefix.pch */,
+				41D145B8EE8E1E8D2F9EF9DBF545EF8E /* MDFloatingTextView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MDFloatingTextView";
+			sourceTree = "<group>";
+		};
+		8B7E94E809487F0F475D6E20DEA397D0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B78D2D07B724A6F7FCEE8CEF726FDBF /* MDFloatingTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8E470CE20B442C45B702A3FC34A2C4CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A1F279233496AB35609D856415F0EA2 /* Pods-MDFloatingTextView_Example */,
+				C9C2CA63EBB6DBF59E296659DE26F2E2 /* Pods-MDFloatingTextView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C9C2CA63EBB6DBF59E296659DE26F2E2 /* Pods-MDFloatingTextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				12F7139CBE42B06F5481C0834CFD9816 /* Pods-MDFloatingTextView_Tests.modulemap */,
+				CA42892831C74646C3EAC7E043A2F1C7 /* Pods-MDFloatingTextView_Tests-acknowledgements.markdown */,
+				2E9EBDA9FA3C3BF3B791A7666955B927 /* Pods-MDFloatingTextView_Tests-acknowledgements.plist */,
+				E8BE90D35E82044F2B0528216EE15776 /* Pods-MDFloatingTextView_Tests-dummy.m */,
+				F32A9C49B7B8F540E413EDE05AE701CE /* Pods-MDFloatingTextView_Tests-Info.plist */,
+				413D5D7416CDEB096E5EAD8CC67FAB69 /* Pods-MDFloatingTextView_Tests-umbrella.h */,
+				FAB38A6599F0CD29EE315898E8295C5A /* Pods-MDFloatingTextView_Tests.debug.xcconfig */,
+				DFC5507B7721B3B102B92CA452565CFB /* Pods-MDFloatingTextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-MDFloatingTextView_Tests";
+			path = "Target Support Files/Pods-MDFloatingTextView_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8B7E94E809487F0F475D6E20DEA397D0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0BFC0BC56687AB9CABABD58172FF8A63 /* Products */,
+				8E470CE20B442C45B702A3FC34A2C4CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		363BBAA8B3744E8FE4790CCFB8745CE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C18D64252F5B73E2947AB3ADAC04D9 /* Pods-MDFloatingTextView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9B0B81B443686080C2BA6A60198D4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6B45B1574F3F8A91257FE49FA04895 /* Pods-MDFloatingTextView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CE97DF503C9F45DEA53F9E33964557 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942695299A3DB6A838999A0F0FBAFE7D /* MDFloatingTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0EBDA66C8656EDAF62DF95BEA1BC1D26 /* Pods-MDFloatingTextView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2224E7F3DA36AD21E34BEE5ABB2501 /* Build configuration list for PBXNativeTarget "Pods-MDFloatingTextView_Example" */;
+			buildPhases = (
+				5D9B0B81B443686080C2BA6A60198D4D /* Headers */,
+				48937D29A0CC342B15A8DC6023AA3176 /* Sources */,
+				7EB1D97B539ABFEB7BB727D389A94B4E /* Frameworks */,
+				92ABD9477D9CA387C653E9730A49CDFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00B306C33D742D03F117C3190F77D3E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-MDFloatingTextView_Example";
+			productName = "Pods-MDFloatingTextView_Example";
+			productReference = A256A1D44973F87ACAA5902C202AA63E /* Pods_MDFloatingTextView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E5AB52FCE6BDC20497776D0C62356D5 /* Pods-MDFloatingTextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133720F483462A10C1E7FB6C34AE2C34 /* Build configuration list for PBXNativeTarget "Pods-MDFloatingTextView_Tests" */;
+			buildPhases = (
+				363BBAA8B3744E8FE4790CCFB8745CE1 /* Headers */,
+				7D47F5EC5DAE0B21AF0DE9AAD5BFCA25 /* Sources */,
+				81931FAEF42C92B84C250BACC58891ED /* Frameworks */,
+				5023557C719F9C1E02E558541AF4453A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73A41AAFFCC7E531DFB5DD0748423082 /* PBXTargetDependency */,
+			);
+			name = "Pods-MDFloatingTextView_Tests";
+			productName = "Pods-MDFloatingTextView_Tests";
+			productReference = CDD21ECA46E2D72E5F5C95514F9D4B82 /* Pods_MDFloatingTextView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EF6BD6AD3B2FA6F86275C4DF3A1D5B8 /* MDFloatingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1512AFFA997F949C1050C2A1C6A280 /* Build configuration list for PBXNativeTarget "MDFloatingTextView" */;
+			buildPhases = (
+				66CE97DF503C9F45DEA53F9E33964557 /* Headers */,
+				F887979ADBBCB1AD37B7434E9FCE1382 /* Sources */,
+				F16824640070F5EAC9DF9DF1FAD71A2C /* Frameworks */,
+				87050FA494437A69109CF0824000AF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDFloatingTextView;
+			productName = MDFloatingTextView;
+			productReference = 7A4CD924B3702C8D502F9BEC6D74B8A4 /* MDFloatingTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0BFC0BC56687AB9CABABD58172FF8A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EF6BD6AD3B2FA6F86275C4DF3A1D5B8 /* MDFloatingTextView */,
+				0EBDA66C8656EDAF62DF95BEA1BC1D26 /* Pods-MDFloatingTextView_Example */,
+				6E5AB52FCE6BDC20497776D0C62356D5 /* Pods-MDFloatingTextView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5023557C719F9C1E02E558541AF4453A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87050FA494437A69109CF0824000AF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92ABD9477D9CA387C653E9730A49CDFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48937D29A0CC342B15A8DC6023AA3176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5683074CA1189C85EBB5B9D05C1C95F /* Pods-MDFloatingTextView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D47F5EC5DAE0B21AF0DE9AAD5BFCA25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BF49806558E2EBCE5FEFC3581CCFE7 /* Pods-MDFloatingTextView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887979ADBBCB1AD37B7434E9FCE1382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C5E25DC795AF0E5659EA7E4B4A8857 /* MDFloatingTextView-dummy.m in Sources */,
+				83C277278FF4A47D20B76B5DCCD79F8D /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00B306C33D742D03F117C3190F77D3E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDFloatingTextView;
+			target = 6EF6BD6AD3B2FA6F86275C4DF3A1D5B8 /* MDFloatingTextView */;
+			targetProxy = F58E26F7A3C9A27829D9629252C6AF2E /* PBXContainerItemProxy */;
+		};
+		73A41AAFFCC7E531DFB5DD0748423082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MDFloatingTextView_Example";
+			target = 0EBDA66C8656EDAF62DF95BEA1BC1D26 /* Pods-MDFloatingTextView_Example */;
+			targetProxy = E7CC3F1ADDA5314E7F3557C565CADB44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C6A6257DC3CB8A59E2E66D852D30A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F0DED9697B31E1A1AB1929AC93726C /* MDFloatingTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MDFloatingTextView/MDFloatingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDFloatingTextView/MDFloatingTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MDFloatingTextView/MDFloatingTextView.modulemap";
+				PRODUCT_MODULE_NAME = MDFloatingTextView;
+				PRODUCT_NAME = MDFloatingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2775922B4477FFCF740FDC6C594C4620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5798D5DDADE71E844D721361A2D50EB9 /* Pods-MDFloatingTextView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MDFloatingTextView_Example/Pods-MDFloatingTextView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MDFloatingTextView_Example/Pods-MDFloatingTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B0DAF9FF532178F85FC2D3246FA4964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB38A6599F0CD29EE315898E8295C5A /* Pods-MDFloatingTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MDFloatingTextView_Tests/Pods-MDFloatingTextView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MDFloatingTextView_Tests/Pods-MDFloatingTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78CCD468FF1699884525BC9BE181F29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF3B39D163695F00D73D1481766A238 /* Pods-MDFloatingTextView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MDFloatingTextView_Example/Pods-MDFloatingTextView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MDFloatingTextView_Example/Pods-MDFloatingTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82D728A233F209AB377C9A9AA3D899B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC5507B7721B3B102B92CA452565CFB /* Pods-MDFloatingTextView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MDFloatingTextView_Tests/Pods-MDFloatingTextView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MDFloatingTextView_Tests/Pods-MDFloatingTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BA60D4BCA4BCE93B970E843A44CE4C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F0DED9697B31E1A1AB1929AC93726C /* MDFloatingTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MDFloatingTextView/MDFloatingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDFloatingTextView/MDFloatingTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MDFloatingTextView/MDFloatingTextView.modulemap";
+				PRODUCT_MODULE_NAME = MDFloatingTextView;
+				PRODUCT_NAME = MDFloatingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133720F483462A10C1E7FB6C34AE2C34 /* Build configuration list for PBXNativeTarget "Pods-MDFloatingTextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0DAF9FF532178F85FC2D3246FA4964 /* Debug */,
+				82D728A233F209AB377C9A9AA3D899B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1512AFFA997F949C1050C2A1C6A280 /* Build configuration list for PBXNativeTarget "MDFloatingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6A6257DC3CB8A59E2E66D852D30A5F /* Debug */,
+				BA60D4BCA4BCE93B970E843A44CE4C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2224E7F3DA36AD21E34BEE5ABB2501 /* Build configuration list for PBXNativeTarget "Pods-MDFloatingTextView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2775922B4477FFCF740FDC6C594C4620 /* Debug */,
+				78CCD468FF1699884525BC9BE181F29F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

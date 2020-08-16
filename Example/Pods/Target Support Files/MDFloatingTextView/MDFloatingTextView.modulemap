@@ -1,0 +1,6 @@
+framework module MDFloatingTextView {
+  umbrella header "MDFloatingTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}
