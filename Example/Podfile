@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MDFloatingTextView_Example' do
+  pod 'MDFloatingTextView', :path => '../'
+
+  target 'MDFloatingTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
