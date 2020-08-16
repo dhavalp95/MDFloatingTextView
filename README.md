@@ -22,7 +22,7 @@ pod 'MDFloatingTextView'
 
 ## Author
 
-dhaval, dhavalp@hyperlinkinfosystem.net.in
+dhaval, patoliyadhaval555@gmail.com
 
 ## License
 
