@@ -8,9 +8,7 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-![Screenshot](https://github.com/dhavalp95/MDFloatingTextView/blob/master/Example/MDFloatingTextView/Images.xcassets/demo1.imageset/demo1.png)
-![Screenshot](https://github.com/dhavalp95/MDFloatingTextView/blob/master/Example/MDFloatingTextView/Images.xcassets/demo1.imageset/demo2.png)
+![alt text](https://github.com/dhavalp95/MDFloatingTextView/blob/master/Example/MDFloatingTextView/Images.xcassets/demo1.imageset/demo1.png)
 
 
 ## Requirements
