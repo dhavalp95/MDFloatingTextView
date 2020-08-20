@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         
         //Setup second textview
         tvTwo.flotingType = .onBorder
-        tvTwo.titleInsideEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 10)
+        tvTwo.titleInsideEdgeInsets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
         tvTwo.layer.cornerRadius = 8
         tvTwo.layer.borderColor = UIColor.systemBlue.cgColor
         tvTwo.layer.borderWidth = 1.5
@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         
         //Setup third textview
         tvThree.flotingType = .outsideBorder
-        tvTwo.titleInsideEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 10, right: 10)
+        tvThree.titleInsideEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 5, right: 0)
         tvThree.layer.cornerRadius = 8
         tvThree.layer.borderColor = UIColor.purple.cgColor
         tvThree.layer.borderWidth = 1.5
