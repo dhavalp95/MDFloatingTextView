@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 'MDFloatingTextView is a beautiful, flexible and customizable implementation of the space saving Float Label with textview. This design enables adding context to input fields that are visible at the time of typing, while minimizing the additional space used to display this additional context.'
                         DESC
   s.homepage         = 'https://github.com/dhavalp95/MDFloatingTextView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/dhavalp95/MDFloatingTextView/blob/master/Example/MDFloatingTextView/Images.xcassets/demo1.imageset/demo1.png', 'https://github.com/dhavalp95/MDFloatingTextView/blob/master/Example/MDFloatingTextView/Images.xcassets/demo1.imageset/demo2.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dhaval' => 'patoliyadhaval555@gmail.com' }
   s.source           = { :git => 'https://github.com/dhavalp95/MDFloatingTextView.git', :tag => s.version.to_s }
