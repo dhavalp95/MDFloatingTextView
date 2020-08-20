@@ -39,9 +39,36 @@ class ViewController: UIViewController {
     //MARK:- Custom Method
     
     func setUpView() {
+        
+        //Setup first textview
         tvOne.flotingType = .insideBorder
+        tvOne.titleBgColor = .clear
+        tvOne.layer.cornerRadius = 8
+        tvOne.layer.borderColor = UIColor.red.cgColor
+        tvOne.layer.borderWidth = 1.5
+        tvOne.textContainerInset = UIEdgeInsets(top: 20, left: 12, bottom: 12, right: 12)
+        tvOne.font = UIFont.systemFont(ofSize: 16)
+        
+        
+        //Setup second textview
         tvTwo.flotingType = .onBorder
+        tvTwo.titleInsideEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 10)
+        tvTwo.layer.cornerRadius = 8
+        tvTwo.layer.borderColor = UIColor.systemBlue.cgColor
+        tvTwo.layer.borderWidth = 1.5
+        tvTwo.textContainerInset = UIEdgeInsets(top: 15, left: 10, bottom: 10, right: 10)
+        tvTwo.font = UIFont.systemFont(ofSize: 18)
+        
+        
+        //Setup third textview
         tvThree.flotingType = .outsideBorder
+        tvTwo.titleInsideEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 10, right: 10)
+        tvThree.layer.cornerRadius = 8
+        tvThree.layer.borderColor = UIColor.purple.cgColor
+        tvThree.layer.borderWidth = 1.5
+        tvThree.textContainerInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        tvThree.font = UIFont.systemFont(ofSize: 18)
+        
     }
     
     //------------------------------------------------------

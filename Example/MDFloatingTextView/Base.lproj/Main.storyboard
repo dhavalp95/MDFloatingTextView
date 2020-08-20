@@ -20,27 +20,27 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="O5S-zq-Kn7">
-                                <rect key="frame" x="30" y="80" width="315" height="435"/>
+                                <rect key="frame" x="30" y="80" width="315" height="360"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nH7-Wf-liK" customClass="MDFloatingTextView" customModule="MDFloatingTextView">
-                                        <rect key="frame" x="0.0" y="0.0" width="315" height="125"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="100"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="125" id="vMM-wu-ITe"/>
+                                            <constraint firstAttribute="height" constant="100" id="vMM-wu-ITe"/>
                                         </constraints>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yuc-yu-o7Z" customClass="MDFloatingTextView" customModule="MDFloatingTextView">
-                                        <rect key="frame" x="0.0" y="155" width="315" height="125"/>
+                                        <rect key="frame" x="0.0" y="130" width="315" height="100"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Bha-Ih-sOb" customClass="MDFloatingTextView" customModule="MDFloatingTextView">
-                                        <rect key="frame" x="0.0" y="310" width="315" height="125"/>
+                                        <rect key="frame" x="0.0" y="260" width="315" height="100"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>

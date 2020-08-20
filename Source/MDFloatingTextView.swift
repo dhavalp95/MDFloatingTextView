@@ -11,16 +11,30 @@ import UIKit
 public class MDFloatingTextView: UITextView {
     
     //MARK:- Placeholder Inspectable Property
-    @IBInspectable var placeholderText  : String    = "Description"
-    @IBInspectable var placeholderFont  : UIFont    = UIFont.systemFont(ofSize: 16)
-    @IBInspectable var placeholderColor : UIColor   = .gray
+    @IBInspectable public var placeholderText   : String    = "Description" {
+        didSet {    lblPlaceholder.text = placeholderText   }
+    }
+    @IBInspectable public var placeholderFont   : UIFont    = UIFont.systemFont(ofSize: 16) {
+        didSet {    lblPlaceholder.font = placeholderFont   }
+    }
+    @IBInspectable public var placeholderColor  : UIColor   = .gray {
+        didSet {    lblPlaceholder.textColor = placeholderColor }
+    }
     
     //MARK:- Title Inspectable Property
-    @IBInspectable var titleText        : String?   = nil
-    @IBInspectable var titleFont        : UIFont    = UIFont.systemFont(ofSize: 12)
-    @IBInspectable var titleColor       : UIColor   = .blue
-    @IBInspectable var titleBgColor     : UIColor   = .white
-    @IBInspectable var titleLeadingSpace: CGFloat   = 12
+    @IBInspectable public var titleText         : String?   = nil {
+        didSet {    btnFlotingTitle.setTitle(titleText, for: .normal)}
+    }
+    @IBInspectable public var titleFont         : UIFont    = UIFont.systemFont(ofSize: 12) {
+        didSet {    btnFlotingTitle.titleLabel?.font = titleFont  }
+    }
+    @IBInspectable public var titleColor        : UIColor   = .blue {
+        didSet {    btnFlotingTitle.setTitleColor(titleColor, for: .normal)   }
+    }
+    @IBInspectable public var titleBgColor      : UIColor   = .white {
+        didSet {    btnFlotingTitle.backgroundColor = titleBgColor  }
+    }
+    @IBInspectable public var titleLeadingSpace : CGFloat   = 12
     
     //MARK:- Private variables
     private var lblPlaceholder = UILabel()
@@ -34,8 +48,8 @@ public class MDFloatingTextView: UITextView {
     public var flotingType: FlotingType = .onBorder
     
     ///Inside EdgeInsets of title label
-    public var titleInnerEdgeInsets: UIEdgeInsets = UIEdgeInsets(top: .zero, left: .zero, bottom: .zero, right: .zero) {
-        didSet{ btnFlotingTitle.contentEdgeInsets = titleInnerEdgeInsets}
+    public var titleInsideEdgeInsets: UIEdgeInsets = UIEdgeInsets(top: .zero, left: .zero, bottom: .zero, right: .zero) {
+        didSet{ btnFlotingTitle.contentEdgeInsets = titleInsideEdgeInsets}
     }
     
     //MARK:- Class Enum
@@ -48,11 +62,7 @@ public class MDFloatingTextView: UITextView {
         super.awakeFromNib()
         
         //Setup textview
-        layer.borderColor = UIColor.red.cgColor
-        layer.cornerRadius = 10
-        layer.borderWidth = 1
         textContainerInset = UIEdgeInsets(top: 12, left: 12, bottom: 12, right: 12)
-        font = UIFont.systemFont(ofSize: 16)
         
         //Setup placehodler
         lblPlaceholder.autoresizingMask = [.flexibleWidth, .flexibleHeight]
@@ -134,19 +144,19 @@ public class MDFloatingTextView: UITextView {
     
     private var titleLabelFrame: CGRect {
         let labelSize = btnFlotingTitle.titleLabel!.text!.sizeOfString(font: titleFont)
-        let width = labelSize.width+titleInnerEdgeInsets.left+titleInnerEdgeInsets.right
+        let width = labelSize.width+titleInsideEdgeInsets.left+titleInsideEdgeInsets.right
         
         var y: CGFloat = .zero
         switch self.flotingType {
         case .insideBorder: y = frame.minY+1
-        case .onBorder: y = frame.minY-(labelSize.height/2)-titleInnerEdgeInsets.top
-        case .outsideBorder: y = frame.minY-labelSize.height-titleInnerEdgeInsets.top-titleInnerEdgeInsets.bottom
+        case .onBorder: y = frame.minY-(labelSize.height/2)-titleInsideEdgeInsets.top
+        case .outsideBorder: y = frame.minY-labelSize.height-titleInsideEdgeInsets.top-titleInsideEdgeInsets.bottom
         }
         
         return CGRect(x: (self.userInterfaceLayoutDirection == .leftToRight) ? (frame.minX+titleLeadingSpace) : (frame.maxX-titleLeadingSpace-width),
                       y: y,
-                      width: labelSize.width+titleInnerEdgeInsets.left+titleInnerEdgeInsets.right,
-                      height: labelSize.height+titleInnerEdgeInsets.top+titleInnerEdgeInsets.bottom)
+                      width: labelSize.width+titleInsideEdgeInsets.left+titleInsideEdgeInsets.right,
+                      height: labelSize.height+titleInsideEdgeInsets.top+titleInsideEdgeInsets.bottom)
     }
 }
 
@@ -162,7 +172,7 @@ fileprivate extension String {
 }
 
 fileprivate extension UIView {
-    /// Returns text and UI direction based on current view settings
+    ///Returns text and UI direction based on current view settings
     var userInterfaceLayoutDirection: UIUserInterfaceLayoutDirection{
         if #available(iOS 9.0, *) {
             return UIView.userInterfaceLayoutDirection(for: self.semanticContentAttribute)
